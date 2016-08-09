@@ -1,0 +1,495 @@
+html,body{
+	height: 100%;
+	font-family: "Hevetica Neue",'Microsoft Yahei', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+}
+
+.clear:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h1{
+	font-size: 3.0rem;
+	font-weight: normal;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.small{
+	font-size: 1.8rem;
+}
+/*index.html*/
+
+.fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #27292f;
+}
+
+.head{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.header p {
+	color: #ccc;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+.header a{
+	text-decoration: none;
+	color: #ccc;
+}
+
+.header-content{
+	width: 100%;
+	position: absolute;
+	top: 15vh;
+}
+
+#p2{
+	padding-top: 200px;
+	font-size: 3.6rem;
+}
+
+#p3{
+	padding-top: 250px;
+	font-size: 4.8rem;
+}
+
+#p4{
+	bottom: 5%;
+	font-size: 1.6rem;
+}
+
+#p4 a{
+	padding: 15px 30px;
+	border:3px solid #ccc;
+}
+
+#p4 a:hover{
+	color:#fff;
+	border:3px solid #fff;
+}
+
+.main{
+	height: 200%;
+	background: #ccc;
+	position: relative;
+}
+
+.menu{
+	width: 300px;
+	height: 100%;
+	background: #27292f;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.logo{
+	margin: 5%;
+}
+
+.menu ul li{
+    height: 50px;
+    list-style: none;
+    text-align: right;
+    margin-top:20px;
+    margin-right: 100px;
+    z-index: 2;
+}
+
+.menu ul li a{
+	font-size: 1.8rem;
+	color: #ccc;
+	text-decoration: none;
+}
+
+.menu ul li a:hover{
+	color: #fff;
+}
+
+.content-box{
+	width: calc(100% - 300px);
+	height: auto;
+	background: #f6f6f6;
+	position: absolute;
+	left: 300px;
+	top: 0;
+}
+
+#content-1{
+	width: 100%;
+    -webkit-filter:opacity(0.8);
+}
+
+.content-title{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.content-main1{
+	padding: 100px 0 200px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content-main2{
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.eee{
+	background: #eee;
+}
+
+.content-text,.content-img{
+	flex: 1;
+	min-width: 500px;
+	padding-top: 100px;
+}
+
+.content-text{
+	margin-left: 100px;
+	margin-top: 150px;
+}
+
+.content-img img{
+	width: 100%;
+}
+
+.down{
+	margin-top: 300px;
+}
+
+.show-text{
+	width: 80%;
+	text-indent: 2em;
+	font-size: 1.8rem;
+	letter-spacing: 0.5px;
+}
+
+.main-text{
+	padding-top: 20px;
+}
+
+.right{
+	text-align: right;
+	margin-right: 20%;
+}
+
+.big{
+	font-size: 8.4rem ;
+	padding-left: 15px;
+	letter-spacing: 3px;
+}
+
+.middle{
+	font-size: 4.8rem;
+	letter-spacing: 3px;
+}
+
+.footer{
+	width: 100%;
+	height: 250px;
+	background: #27292f;
+	z-index: 1;
+	text-align: center;
+}
+
+.footer img{
+	padding-top: 30px;
+}
+
+.footer p {
+	font-size: 1.6rem;
+	color: #ccc;
+	padding-top: 20px;
+}
+
+/*resume.html*/
+.del{
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    left: 100px;
+    bottom: -60px;
+    z-index: 1;
+}
+
+.black{
+	border-top: 30px solid #323232;
+}
+
+.green{
+	border-top: 30px solid #119099;
+}
+
+.yellow{
+	border-top: 30px solid #e9e0cb;
+}
+
+.red{
+	border-top: 30px solid #e94951;
+}
+
+.olive{
+	border-top: 30px solid #b6c894;
+}
+
+.intro{
+	height: 550px;
+	background: #323232;
+	position: relative;
+}
+
+.intro img{
+	position: absolute;
+	top: 0;
+	left: 100px;
+	z-index: 1;
+}
+
+#intro-img{
+	width: 100%;
+	top: 150px;
+	left: 0;
+}
+
+.shadow{
+	display: block;
+	width: 100%;
+	height: 10px;
+	background: #222;
+	opacity: 0.2;
+}
+
+.timeline{
+	height: 850px;
+	background: #119099;
+	color: #e5f2f2;
+	position: relative;
+}
+
+.timeline-box{
+	width: 70%;
+	height: 500px;
+	margin: 100px auto;
+    background: url(../images/timeline-bg.jpg) center top repeat-y;
+}
+
+.timeline-left-content,.timeline-right-content{
+	width: 40%;
+	height: 50px;
+	margin:50px auto;
+}
+
+.timeline-left-content{
+	text-align: right;
+	float: left;
+}
+
+.timeline-right-content{
+	text-align: left;
+	float: right;
+}
+
+.timeline-box p{
+	color: #e5f2f2;
+	margin: 0;
+	line-height: 50px;
+}
+
+.skills{
+	height: 700px;
+	background: #e9e0cb;
+	color: #3a290d;
+	position: relative;
+}
+
+.skills ul{
+	list-style-type: none;
+	padding: 50px 0 0 150px;
+}
+
+.skills li{
+	height: 50px;
+	position: relative;
+	padding-left: 80px;
+	margin-top: 20px;
+}
+
+.skills ul li p{
+	padding-left: 400px;
+	line-height: 50px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.graph{
+	position: absolute;
+	top: 35%;
+	width: 300px;
+	background-color:#dcdcdc;
+	border-radius: 10px;
+	font-size:13px;
+	font-weight:700;
+}
+
+.graph .green-bg{
+	position: relative;
+	text-align:center;
+	color:#ffffff;
+	height:18px;
+	line-height:18px;
+	font-family:Arial;
+	display:block;
+	border-radius: 10px;
+}
+
+.graph .green-bg{
+	background-color:#96dcfd;
+}
+
+#html5{
+	background: url(../images/html5.png) 0 0 no-repeat;
+}
+
+#css3{
+	background: url(../images/css3.png) 0 0 no-repeat;
+}
+
+#js{
+	background: url(../images/js.png) 0 0 no-repeat;
+}
+
+#jquery{
+	background: url(../images/jquery.png) 0 center no-repeat;
+}
+
+#bs{
+	background: url(../images/bootstrap.png) 0 center no-repeat;
+}
+
+#ps{
+	background: url(../images/photoshop.png) 0 0 no-repeat;
+}
+
+.hobbies{
+	height: 800px;
+	background: #b6c894;
+	color: #38471d;
+	position: relative;
+}
+
+.resume-maintitle{
+	margin: 50px 0 0 50px;
+}
+
+.resume-title{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	font-size:2.4rem;
+	margin: 150px 0 0 65px;
+}
+
+.hobbies ul{
+	margin-top: 150px;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+.hobbies ul li{
+	float: left;
+	list-style: none;
+	width: 20%;
+	margin-left: 10%;
+}
+
+.contact{
+	height: 500px;
+	background: #5c284c;
+	color: #e5e1df;
+	position: relative;
+}
+
+.contact ul{
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+.contact li{
+	float: left;
+	list-style: none;
+	width: 20%;
+	height: 50px;
+	font-size: 2.4rem;
+	line-height: 50px;
+	margin-left: 10%;
+	margin-bottom: 50px;
+}
+
+.contact li img{
+	padding-right: 20px;
+}
+
+.contact ul li p{
+	padding-left: 60px;
+	margin: 0;
+}
+
+#phone{
+	background: url(../images/phone.png) 0 0 no-repeat;
+}
+
+#qq{
+	background: url(../images/qq.png) 0 0 no-repeat;
+}
+
+#wechat{
+	background: url(../images/wechat.png) 0 0 no-repeat;
+}
+
+#email{
+	background: url(../images/email.png) 0 0 no-repeat;
+}
+
+#weibo{
+	background: url(../images/weibo.png) 0 0 no-repeat;
+}
+
+#web{
+	background: url(../images/web.png) 0 0 no-repeat;
+}
+

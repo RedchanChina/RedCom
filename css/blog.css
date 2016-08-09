@@ -1,0 +1,329 @@
+/*博客首页*/
+.hr{
+	width: 100%;
+	height: 2px;
+	margin: 20px auto;
+}
+
+.main-wrapper{
+	background: #444 url(../images/banner.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+nav{
+	height: 50px;
+	background: rgba(0,0,0,0.02);
+}
+
+.header-logo h3{
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+.header-logo a{
+	text-decoration: none;
+	color: #fff;
+	padding: 50px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+nav ul li,.header-logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	line-height: inherit;
+	height: inherit;
+	display: inline-block;
+	color: #fff;
+}
+
+.header-banner{
+	height: 968px;
+	background: rgba(0,0,0,0.16);
+}
+
+.header-banner .banner-inner{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+	color: #fff;
+}
+
+.header-banner .banner-inner h1{
+	margin: 0 auto;
+	width: 150px;
+	padding: 10px 0;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}
+
+.header-banner .banner-inner p{
+	line-height: 30px;
+}
+
+.header-banner .banner-inner button{
+	border: none;
+	background: #333;
+	color: #eee;
+	padding: 15px 40px;
+}
+
+.header-banner .banner-inner .inner-more{
+	margin-top: 300px;
+}
+
+.index-content .green-section{
+	background: #089D80;
+}
+
+.green-section .wrapper{
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	padding: 50px 0;
+}
+
+.green-section .wrapper h2{
+	margin: 0;
+}
+
+.green-section .hr{
+	background: #fff;
+	width: 60%;
+}
+
+.green-section .icon-group{
+	margin-top: 50px;
+}
+
+.green-section .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	transform: rotate(45deg);
+	margin: 30px;
+	border:1px solid #0D6F7C;
+}
+
+.gray-section{
+	background: #252F34;
+	color: #fff;
+}
+
+.gray-section .img-section{
+	width: 40%;
+	font-size: 0;
+}
+
+.article-preview:nth-child(odd){
+	background-color: rgba(255,255,255,0.05);
+}
+
+.article-preview > div{
+	float: left;
+}
+
+.img-section img{
+	width: 100%;
+}
+
+.gray-section .text-section{
+	width: 60%;
+}
+
+.text-section{
+	position: relative;
+	top: 70px;
+	left: 50px;
+}
+
+.text-section h2{
+	margin-bottom: 20px;
+	font-size: 
+}
+
+.text-section p{
+	font-size: 18px;
+	padding-right: 80px;
+}
+
+.purple-section{
+	background: #262149;
+	color: #fff;
+	padding: 80px 350px;
+}
+
+.purple-section .heading-wrapper{
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.heading-wrapper h2{
+	margin: 0;
+}
+
+.heading-wrapper .hr{
+	background: #fff;
+	width: 65%;
+}
+
+.card-group{
+	margin-top: 80px;
+}
+
+.card-group .card{
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	text-align: center;
+}
+
+.card p{
+	padding: 0 50px 50px 50px;
+	letter-spacing: 1px;
+}
+
+.card h3{
+	padding: 50px 50px 0 50px;
+}
+
+.card:first-child{
+	background: rgba(0,0,0,0.04);
+}
+
+.card:nth-child(2){
+	background: rgba(0,0,0,0.08);
+}
+
+.card:nth-child(3){
+	background: rgba(0,0,0,0.12);
+}
+
+.card:nth-child(4){
+	background: rgba(0,0,0,0.16);
+}
+
+.card:nth-child(5){
+	background: rgba(0,0,0,0.20);
+}
+
+.card:last-child{
+	background: rgba(0,0,0,0.24);
+}
+
+footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+
+footer ul{
+	list-style: none;
+	margin: 0;
+}
+
+footer ul a{
+	color: #fff;
+	text-decoration: none;
+}
+
+ul.share-group{
+	display: block;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.share-group li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.copy{
+	padding: 30px;
+}
+
+.mask{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.3);
+}
+
+#sidebar{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: -300px;
+	width: 300px;
+	background: #333;
+}
+
+#sidebar ul{
+	list-style: none;
+	padding: 0;
+}
+
+#sidebar ul a{
+	text-decoration: none;
+	padding: 10px 30px;
+	color: #fff;
+	display: inline-block;
+	width: 300px;
+}
+
+#sidebar ul a:hover{
+	background: #444;
+}
+
+/*博客文章页*/
+.article .header-banner{
+	height: 300px;
+}
+
+.article .header-banner .banner-inner h1{
+	border:none;
+}
+
+.article .header-banner .banner-inner{
+	top: 100px;
+}
+
+.content-wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.article .index-content{
+	background: #fefefe;
+}
+
+article{
+	line-height: 2;
+	padding: 10px 0 30px 0;
+}
+
+.article-info{
+	font-size: 14px;
+	color: #888;
+	padding: 15px 0
+}
